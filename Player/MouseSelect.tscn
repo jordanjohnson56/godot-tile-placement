@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Player/MouseSelect.gd" type="Script" id=1]
+[ext_resource path="res://Buildings/Drill.png" type="Texture" id=2]
+
+[node name="MouseSelect" type="Node2D"]
+script = ExtResource( 1 )
+BUILDING1_IMAGE = ExtResource( 2 )
+BUILDING1_PATH = "res://Buildings/Drill.tscn"
+
+[node name="Sprite" type="Sprite" parent="."]
+modulate = Color( 1, 1, 1, 0.588235 )
+centered = false
